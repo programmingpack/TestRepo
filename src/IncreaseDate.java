@@ -12,7 +12,7 @@ SimpleDateFormat dateformat= new SimpleDateFormat("YYYY-MM-dd");
 String currentDate = dateformat.format(date);
 System.out.println("Current Date"+ currentDate);
 Calendar c1 = Calendar.getInstance();
-c1.add(Calendar.DAY_OF_MONTH, 1);
+c1.add(Calendar.DAY_OF_MONTH, 2);
 System.out.println(dateformat.format(c1.getTime()));
 
 	}
